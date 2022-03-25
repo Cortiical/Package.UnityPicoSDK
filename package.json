@@ -17,10 +17,41 @@
     "com.unity.subsystemregistration": "1.0.6",
     "com.unity.xr.interaction.toolkit": "0.9.4-preview"
   },
+  "samples":
+  [
+    {
+      "displayName": "Examples",
+      "description": "Pico example files",
+      "path": "Samples~/Examples"
+    },
+    {
+      "displayName": "Payment",
+      "description": "Pico example (payment specific) files",
+      "path": "Samples~/Payment"
+    },
+    {
+      "displayName": "Resources",
+      "description": "[REQUIRED] Import to project",
+      "path": "Samples~/Resources"
+    }
+  ],
   "author": 
   {
     "name":"Cortiical Ltd",
     "email":"dev@cortiical.com",
     "url":"http://www.cortiical.com"
-  }
+  },
+  "files": 
+  [
+    "*.cs",
+    "*.md",
+    "*.meta",
+    "*.asmdef",
+    "*.unitypackage",
+    "Samples~",
+    "Samples~/Examples",
+    "Samples~/Payment",
+    "Samples~/Resources",
+    "Runtime"
+  ]
 }
