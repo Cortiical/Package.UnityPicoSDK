@@ -16,5 +16,11 @@
     "com.unity.ugui": "1.0.0",
     "com.unity.subsystemregistration": "1.0.6",
     "com.unity.xr.interaction.toolkit": "0.9.4-preview"
+  },
+  "author": 
+  {
+    "name":"Cortiical Ltd",
+    "email":"dev@cortiical.com",
+    "url":"http://www.cortiical.com"
   }
 }
